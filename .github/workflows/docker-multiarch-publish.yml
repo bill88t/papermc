@@ -26,4 +26,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64
           push: true
-          tags: papermc:latest
+          tags: ghcr.io/thijmengthn/papermc:latest
