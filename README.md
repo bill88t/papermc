@@ -8,7 +8,7 @@ It is assumed that the user has already acquired a working Docker installation. 
 ## Command
 With this image, you can create a new PaperMC Minecraft server with one command (note that running said command indicates agreement to the Minecraft EULA). Here is an example:
 
-```sudo docker run -p 25565:25565 -e EULA="true" phyremaster/papermc```
+```sudo docker run -p 25565:25565 -e EULA="true" ghcr.io/thijmengthn/papermc```
 
 While this command will work just fine in many cases, it is only the bare minimum required to start a functional server and can be vastly improved by specifying some...
 ## Options
@@ -82,5 +82,5 @@ This project *does **NOT** redistribute the Minecraft server files*. Instead, th
 **PLEASE NOTE:** This is an unofficial project. I did not create PaperMC. [This is the official PaperMC website.](https://papermc.io/)
 
 ## Project Pages
-- [GitHub page](https://github.com/Phyremaster/papermc-docker).
-- [Docker Hub page](https://hub.docker.com/r/phyremaster/papermc).
+- [GitHub page](https://github.com/ghcr.io/thijmengthn/papermc-docker).
+- [Docker Hub page](https://hub.docker.com/r/ghcr.io/thijmengthn/papermc).
