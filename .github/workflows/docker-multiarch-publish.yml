@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY_IMAGE: ghcr.io/ThijmenGThN/papermc
+  REGISTRY_IMAGE: ghcr.io/bill88t/papermc
 
 jobs:
   buildandpush:
@@ -16,7 +16,7 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: thijmengthn
+          username: bill88t
           password: ${{ secrets.GH_PAT }}
       - uses: docker/build-push-action@v6
         with:
@@ -24,4 +24,4 @@ jobs:
           file: Dockerfile
           platforms: linux/arm64
           push: true
-          tags: ghcr.io/thijmengthn/papermc:latest
+          tags: ghcr.io/bill88t/papermc:latest
